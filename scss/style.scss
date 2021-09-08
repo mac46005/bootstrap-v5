@@ -1,6 +1,1 @@
-$primary: #6892c2;
-$myfont: 34px;
-.test-1{
-    color: $primary;
-    font-size: $myfont;
-}
+@use'custom';
