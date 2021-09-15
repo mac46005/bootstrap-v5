@@ -11116,10 +11116,15 @@ textarea.form-control-lg {
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
+}
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    display: none;
+  }
 }
 .btn-rounded span {
   position: absolute;
@@ -11135,6 +11140,13 @@ textarea.form-control-lg {
   color: #fff;
   font-size: 1rem;
   line-height: 2.5rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 21, 240, 0.95), rgba(2, 255, 44, 0.95));
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .menu {
