@@ -11149,6 +11149,19 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+}
+.display-2--description {
+  display: block;
+  font-size: 1rem;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 21, 240, 0.95), rgba(2, 255, 44, 0.95));
 }
