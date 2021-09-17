@@ -11161,8 +11161,9 @@ textarea.form-control-lg {
 }
 .display-2--description {
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 1.2rem;
+  text-transform: none;
 }
 
 .menu {
